@@ -2,31 +2,37 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Patrick O'Toole
     - name: Date of Birth
-      value: 14th March 1879
+      value: 14th February 1986
     - name: Languages
-      value: English, German
+      value: English
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: University of Sydney, Australia & University of Venice, Italy (Cotutelle)
+      year: 2016
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Computational & Theory Group, School of Chemistry, University of Sydney 
+        - Dipartimento di Scienze Molecolari e Nanosistemi, University of Venice
+        - content:
+            - Development of Advanced Monte Carlo Algorithms to compute thermodynamics of soft matter systems confined by kinetic bottlenecking
+            - Application of Monte Carlo to dumbbell shaped colloidal 'Janus' particles.
+        - Thesis - 'Phase-behaviour of Janus dumbbell liquids and assemblies by Monte Carlo techniques'
+    - title: BSc (HONS)
+      institution: University of Sydney, Australia
+      year: 2011
       description:
-        - Description 1.
-        - Description 2.
+        - Chemistry Honours - Class I
+        - Applied 'Lattice-Switch Monte Carlo' to new high density binary sphere packings
+        - Thesis - 'Phase-behaviour of binary hard sphere compounds by Monte Carlo techniques'
+    - title: BAS (HONS)
+      institution: University of Sydney, Australia
+      year: 2011
+      description:
+        - Double major - Chemistry
 
 - title: Experience
   type: time_table
